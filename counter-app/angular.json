@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "counter-app"
+    }
+  },
+  "defaultProject": "counter-app",
+  "cli": {
+    "analytics": false
+  }
 }
