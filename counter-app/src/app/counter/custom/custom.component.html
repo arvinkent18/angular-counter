@@ -1,4 +1,7 @@
 <div>
-    <input type="text" [(ngModel)]="value">
-    <button class="btn btn-primary" (click)="onAdd()">Add to counter</button>
+    <div class="my-3">
+        {{ textData }}
+    </div>
+    <input type="text" [(ngModel)]="counter">
+    <button class="btn btn-primary" (click)="onAddCounter()">Add to counter</button>
 </div>
